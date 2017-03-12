@@ -1,0 +1,10 @@
+ Use the join method of the empty string to join all of the strings together with the empty string in between, like so:
+
+>>> a = ['a', 'b', 'c', 'd']
+>>> ''.join(a)
+'abcd'
+
+
+Use the list method to split the user input string into array 
+>>> a=raw_input("Give a string)
+>>> b=list(a)
