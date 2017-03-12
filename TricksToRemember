@@ -12,3 +12,6 @@ Use the list method to split the user input string into array
 
 # make it suitable for caseless comparison
 >>> my_str = my_str.casefold()
+
+# reverse the string
+rev_str = reversed(my_str)
