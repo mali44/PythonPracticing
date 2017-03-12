@@ -8,3 +8,7 @@
 Use the list method to split the user input string into array 
 >>> a=raw_input("Give a string)
 >>> b=list(a)
+
+
+# make it suitable for caseless comparison
+>>> my_str = my_str.casefold()
