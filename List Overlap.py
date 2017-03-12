@@ -18,6 +18,12 @@ for x,y   in zip(a,b):
   c.append(x)
  print (c)
 
+#To generate randomly list
+#Use this
+#import random
+#a=random.sample(range(20),4)
+#b=random.sample(range(10),7)
+
 
 
 
