@@ -1,14 +1,12 @@
-
-
-
-
-
+import time
 isimler = ["Mali","Ali","Ahmet","Veli"]
+
 rakamlar = [123.2,23,44,55223]
 
 show_message= """ 
 Merhaba {isim}
 Sepetinizdeki  ürün {genel} tl tutarındadır
+Tarih {tarih}
 """
 
 def mesaj_olustur(isimler,rakamlar):
@@ -18,7 +16,7 @@ def mesaj_olustur(isimler,rakamlar):
 		for name in isimler:
 			yeni_msg = show_message.format(
 					isim=name,
-					date='some date',
+					tarih=time.strftime("%H:%M:%S"),
 					genel=129.99
 				)
 			i+=1
