@@ -1,0 +1,28 @@
+
+
+
+
+
+isimler = ["Mali","Ali","Ahmet","Veli"]
+rakamlar = [123.2,23,44,55223]
+
+show_message= """ 
+Merhaba {isim}
+Sepetinizdeki  ürün {genel} tl tutarındadır
+"""
+
+def mesaj_olustur(isimler,rakamlar):
+	messages =[]
+	if len(isimler) == len (rakamlar):
+		i = 0
+		for name in isimler:
+			yeni_msg = show_message.format(
+					isim=name,
+					date='some date',
+					genel=129.99
+				)
+			i+=1
+			print(yeni_msg)
+mesaj_olustur(isimler,rakamlar)			
+
+a=input()
